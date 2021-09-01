@@ -1,0 +1,61 @@
+@import '../../../styles/variables.scss';
+
+.applicant-dt-wrapper {
+  width: 100%;
+}
+
+.applicant-dt {
+
+  border-collapse: collapse;
+  background: $dt-background-color;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+
+  &__header {
+    
+    background: $dt-header-color;
+    height: 6rem;
+
+    &-col {
+      font-size: 1.8rem;
+      font-weight: unset;
+      color: $dt-header-font-color;
+      text-align: left;
+    }
+  }
+
+  &__data-row {
+    height: 5rem;
+    cursor: pointer;
+    color: $dt-row-font-color;
+    &:nth-child(even) {
+      background-color: $dt-alt-row-color;
+    }
+
+    &:hover {
+      color: $dt-row-font-hover-color;
+      background-color: $dt-alt-row-color;
+    }
+  }
+
+  &__data-col,
+  &__header-col {
+    padding-left: 4rem;
+  }
+
+  &__delete-button {
+    color: $dt-row-font-color;
+    padding: .5rem;
+  }
+
+  &__add-button {
+    color: $dt-header-font-color;
+    padding: .5rem;
+  }
+
+}
+

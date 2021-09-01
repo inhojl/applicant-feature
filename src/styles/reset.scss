@@ -1,0 +1,97 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: inherit;
+  // text-align: inherit;
+  // vertical-align: inherit;
+  font: inherit;
+  color: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+html { 
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $base-font;
+  font-size: 1.6rem;
+  color: $main-text-color;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+// input[type="password"],
+// input[type="email"],
+// input[type="text"],
+// input[type="submit"],
+// textarea,
+// button {
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+// }
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+
+body {
+  font-family: $base-font;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $heading-font;
+}
+
+h1 {
+  font-size: 9.6rem;
+  font-weight: 300;
+  margin-bottom: 3.36rem;
+}
+
+h2 {
+  font-size: 6rem;
+  font-weight: 300;
+  margin-bottom: 2.1rem;
+}
+
+h3 {
+  font-size: 4.8rem;
+  font-weight: 400;
+  margin-bottom: 1.68rem;
+}
+
+h4 {
+  font-size: 3.4rem;
+  font-weight: 400;
+  margin-bottom: 1.19rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: .84rem;
+}
+
+h6 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: .7rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

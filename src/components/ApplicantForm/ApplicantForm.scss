@@ -1,0 +1,42 @@
+@import '../../styles/variables.scss';
+
+.applicant-form {
+  width: 50rem;
+  background-color: $form-color;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+
+  label {
+    margin-bottom: .5rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+  }
+
+
+  input {
+    width: 100%;
+    padding: .6rem 1.2rem;
+    color: $form-input-font-color;
+    border: $form-input-border;
+    border-radius: .4rem;
+    transition: $form-input-border-transition;
+
+    &:focus {
+      border-color: $form-input-focus-color;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+    }
+  }
+
+  button {
+    background-color: $button-primary-color;
+    color: $button-font-color;
+    padding: .6rem 1.2rem;
+    border-radius: .4rem;
+    margin-top: 1.6rem;
+  }
+
+}

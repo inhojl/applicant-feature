@@ -1,0 +1,20 @@
+@import './styles/variables.scss';
+
+.app {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  padding: 3.3rem 3rem;
+}
+
+
+html { 
+  background: $background-color;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

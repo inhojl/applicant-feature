@@ -1,0 +1,29 @@
+
+// COLORS
+$main-text-color: rgba(0, 0, 0, 0.87);
+$modal-background-color: rgba(0,0,0,.8);
+$modal-color: white;
+$dt-header-color: #36304a;
+$dt-header-font-color: white;
+$dt-background-color: white;
+$dt-alt-row-color: #f5f5f5;
+$dt-row-font-color: gray;
+$dt-row-font-hover-color: #555;
+$button-primary-color: #1E99FE;
+$button-secondary-color: #6c757d;
+$button-font-color: white;
+$form-color: white;
+$form-input-font-color: #495057;
+$form-input-border: 1px solid #ced4da;
+$form-input-border-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+$form-input-focus-color: #80bdff;
+$background-color: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%) no-repeat center center fixed; 
+
+
+// FONTS
+$heading-font: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$base-font: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+
+// BREAKPOINTS
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1000px;

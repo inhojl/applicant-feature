@@ -1,0 +1,45 @@
+@import '../../styles/variables.scss';
+
+.modal {
+
+  padding: 2rem;
+  background: $modal-color;
+  border-radius: 1rem;
+
+  &__background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: $modal-background-color;
+    overflow-y: none;
+  }
+
+  &__button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button--cancel {
+    margin-left: 1rem;
+    background-color: $button-secondary-color;
+  }
+
+  &__button--delete {
+    background-color: $button-primary-color;
+  }
+
+  &__button--delete,
+  &__button--cancel {
+    color: white;
+    padding: .6rem 1.2rem;
+    border-radius: .4rem;
+    margin-top: 1.6rem;
+  }
+
+}
